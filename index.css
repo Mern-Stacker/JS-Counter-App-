@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-transform: capitalize;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: rgb(169, 121, 213);
+
+}
+h1{
+    text-align: center;
+    color: rgb(39, 47, 75);
+    font-size: 4rem;
+    font-weight: 900;
+    margin-top: 10%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.number{
+    background-color: rgb(116, 89, 120);
+   height: 300px;
+   width:400px ;
+   text-align: center;
+   line-height: 300px;
+   color: rgb(78, 64, 48);
+   box-shadow: -15px -5px 8px 0 rgba(0,0,0,0.2);
+   font-size: 5rem;
+   border-radius: 15px;
+}
+.buttons button{
+    display: inline-block;
+    margin: 20px;
+    width: 60px;
+    height:60px;
+    font-size: 1rem;
+    font-weight: 800;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    color: brown;
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(35, 29, 29);
+}
+.btn2{
+    background-color: rgb(149, 162, 30);
+}
+.btnr{
+    background-color: cadetblue;
+}
